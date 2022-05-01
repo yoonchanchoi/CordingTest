@@ -39,4 +39,27 @@ public class BOJ_15649 {
             }
         }
     }
+
+//    public static int[] arry;
+//    public static boolean[] check;
+//
+//    public static void dfs(int n, int m, int depth){
+//        if(depth == m){
+//            for(int val : arry){
+//                System.out.print(val + "구분");
+//            }
+//            System.out.println("");
+//            return;
+//        }
+//
+//        for(int i=0 ; i<n;i++){
+//            if(!check[i]) {
+//                check[i] = true;
+//                arry[depth] = i + 1;
+//                dfs(n, m, depth+1);
+//                check[i]=false;
+//            }
+//        }
+//    }
+
 }
