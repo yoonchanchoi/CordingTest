@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BOJ_2508 {
     public static int[][] arr = new int[9][9];
 
+    //row 열, col 행
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
